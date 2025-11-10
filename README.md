@@ -2,8 +2,8 @@
 
 ## Roles
 
-Alumno 1 -> Salvador Moreno Mendoza
-Alumno 2 -> Rubén María Márquez González
+- Alumno 1 -> Salvador Moreno Mendoza 
+- Alumno 2 -> Rubén María Márquez González
 
 ## Comandos usados:
 
