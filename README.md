@@ -7,9 +7,9 @@
 
 ## Comandos usados:
 
-## Alumno 1
+### Alumno 1
 
-### Apartado 3: Creación e inicialización
+#### Apartado 3: Creación e inicialización
 - mkdir Git_IA
 - cd Git_IA
 - git init
@@ -20,7 +20,7 @@
 - git remote
 - git push origin main
 
-### Apartado 5: Actualización README
+#### Apartado 5: Actualización README
 - git pull origin main
 - git add README.md
 - git commit -m "Actualización README"
