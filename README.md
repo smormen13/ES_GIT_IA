@@ -26,6 +26,22 @@
 - git commit -m "Actualización README"
 - git push origin main
 
+#### Apartado 7: Creación de ramas
+- git branch
+- git checkout -b ramaAlumno1
+
+#### Apartado 8: Listar ramas
+- git branch
+
+##### ¿Qué significa el asterisco encima de una de las ramas?
+- el asterisco indica cuál es la rama activa en ese momento, es decir, la rama en la que estamos situados y trabajando actualmente.
+
+#### Apartado 9: Modificar archivos distintos en ramas
+- nano almacen_cli.java
+- git add almacen_cli.java
+- git commit -m "Añadiendo fichero almacen_cli.java"
+
+
 ### Alumno 2
 
 ####Apartado 4: Clonar Repositorio
