@@ -28,5 +28,16 @@
 
 ### Alumno 2
 
+####Apartado 4: Clonar Repositorio
 - git clone https://github.com/smormen13/ES_GIT_IA.git
 - nano README.md
+
+####Apartado 7: Creación de ramas
+- git branch ramaAlno2
+- git checkout ramaAlno2
+- git branch -m ramaAlumno2
+
+####Apartado 8: Listar ramas
+Para listar las ramas he utilizado el comando:
+- git branch
+El asterisco que se observa sobre el nombre de una de las ramas indica la rama en la cual está situado el usuario.
