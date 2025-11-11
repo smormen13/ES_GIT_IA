@@ -41,6 +41,31 @@
 - git add almacen_cli.java
 - git commit -m "Añadiendo fichero almacen_cli.java"
 
+#### Apartado 11: Merge sin conflictos 
+- git checkout main
+- git pull origin main
+- git merge ramaAlumno1
+- git push origin main
+
+##### ¿Habéis podido realizar los pasos de este ejercicio de forma idéntica?
+- No, el primer alumno en hacer push lo hizo sin problemas. El segundo alumno, al intentar hacer push, se encontró con un rechazo porque su main local se había quedado desactualizado. Tuvo que ejecutar un git pull origin main adicional para descargar los cambios del primer alumno antes de poder subir los suyos.
+
+#### Apartado 12: Credenciales
+- git config --global credential.helper 'cache --timeout=86400'
+- git checkout ramaAlumno1
+- git merge main
+- git log main > LogAlumno1.txt
+- git add LogAlumno1.txt
+- git commit -m "Añade LogAlumno1.txt"
+- git checkout main
+- git pull origin main
+- git merge ramaAlumno1
+- git push origin main
+
+##### ¿Funcionó la configuración de credenciales?
+- Sí, tras configurar el 'credential.helper' y hacer el primer 'push' (donde me pidió la clave por última vez), el segundo 'push' del Apartado 12 subió los cambios directamente sin solicitar usuario ni token.
+
+
 
 ### Alumno 2
 
