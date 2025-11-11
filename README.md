@@ -41,6 +41,11 @@
 - git add almacen_cli.java
 - git commit -m "Añadiendo fichero almacen_cli.java"
 
+#### Apartado 10: Ver las diferencias 
+- git diff ramaAlumno1 ramaAlumno2
+
+##### ¿Lo lograsteis hacer en menos de dos minutos o habéis quedado fatal delante del jefe?
+Sí, conseguimos quedar bien delante del jefe.
 #### Apartado 11: Merge sin conflictos 
 - git checkout main
 - git pull origin main
