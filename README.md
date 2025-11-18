@@ -7,7 +7,8 @@
 
 - Alumno 1 -> Salvador Moreno Mendoza 
 - Alumno 2 -> Rubén María Márquez González
-
+- Alumno 3 ->
+- Alumno 4 ->
 ## Comandos usados:
 
 ### Alumno 1
@@ -73,8 +74,10 @@ Sí, conseguimos quedar bien delante del jefe.
 ##### ¿Funcionó la configuración de credenciales?
 - Sí, tras configurar el 'credential.helper' y hacer el primer 'push' (donde me pidió la clave por última vez), el segundo 'push' del Apartado 12 subió los cambios directamente sin solicitar usuario ni token.
 
-
-
+#### Apartado 14: Unión de nuevos miembros
+##### Se incorporan al equipo dos nuevos desarrolladores:
+- Alumno 3: Jose039
+- Alumno 4: Streif44
 ### Alumno 2
 
 #### Apartado 4: Clonar Repositorio
