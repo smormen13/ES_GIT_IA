@@ -77,16 +77,41 @@ Sí, conseguimos quedar bien delante del jefe.
 
 ### Alumno 2
 
-####Apartado 4: Clonar Repositorio
+#### Apartado 4: Clonar Repositorio
 - git clone https://github.com/smormen13/ES_GIT_IA.git
 - nano README.md
 
-####Apartado 7: Creación de ramas
+#### Apartado 7: Creación de ramas
 - git branch ramaAlno2
 - git checkout ramaAlno2
 - git branch -m ramaAlumno2
 
-####Apartado 8: Listar ramas
+#### Apartado 8: Listar ramas
 Para listar las ramas he utilizado el comando:
 - git branch
 El asterisco que se observa sobre el nombre de una de las ramas indica la rama en la cual está situado el usuario.
+
+#### Apartado 9: Modificación en rama de archivos distintos
+- git checkout ramaAlumno2
+
+- nano cliente.java
+- git add cliente.java
+- git commit -m "Añadiendo fichero cliente.java"
+
+#### Apartado 10: Ver las diferencias
+He quedado bien con el jefe, menos mal...
+- git diff ramaAlumno2 ramaAlumno1
+
+#### Apartado 11: Merge sin conflictos
+
+1. git pull
+2. git merge ramaAlumno2
+3. git checkout ramaAlumno2
+4. git push
+5. git checkout main
+6. git push
+7. git pull
+
+No hemos podido hacer el apartado con los mismos comandos ya que uno ha subido los cambios antes que otro y por tanto el último en subir los cambios ha tenido que actualizarlo con los cambios subidos por el otro.
+
+#### Apartado 12: Credenciales
