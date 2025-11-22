@@ -76,8 +76,14 @@ Sí, conseguimos quedar bien delante del jefe.
 
 #### Apartado 14: Unión de nuevos miembros
 ##### Se incorporan al equipo dos nuevos desarrolladores:
-- Alumno 3: Jose039
-- Alumno 4: Streif44
+- Alumno 3: @Jose039
+- Alumno 4: @Streif44
+
+#### Apartado 15: Crear ramas remotas y de investigación
+- git branch investigacion
+- git push origin investigacion
+- git branch -r
+
 ### Alumno 2
 
 #### Apartado 4: Clonar Repositorio
