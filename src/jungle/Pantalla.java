@@ -163,6 +163,23 @@ public class Pantalla implements Serializable
 		return salida;
 	}
 
+	public static void menu_consultar_cliente()
+	{
+		try
+		{
+			System.out.println("Software de FARMACIA-LA-JUNGLA: Consultar cliente");
+			System.out.println("--------------------------------------------");
+			System.out.println("1: Consultar datos del cliente");
+			System.out.println("2: Consultar historial de compra");
+			System.out.println("0: Volver a la pantalla anterior");
+			System.out.println("--------------------------------------------");
+			System.out.println("Introduzca una opcion: ");
+		}catch(Exception e)
+		{
+			System.out.println("Ha fallado el menu_consultar_cliente()");
+		}
+	}
+
 	
 	
 	public static void menu_consultar_medicamento()
