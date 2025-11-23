@@ -7,7 +7,7 @@
 
 - Alumno 1 -> Salvador Moreno Mendoza 
 - Alumno 2 -> Rubén María Márquez González
-- Alumno 3 ->
+- Alumno 3 -> Diego Atalaya Ramírez
 - Alumno 4 ->
 ## Comandos usados:
 
