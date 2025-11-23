@@ -99,6 +99,14 @@ Sí, conseguimos quedar bien delante del jefe.
 - git merge ramaAlumno1
 - git push origin main
 
+#### Apartado 19: Modifican los alumnos en sus ramas, en el mismo archivo
+- git checkout ramaAlumno1
+- nano src/jungle/Compra.java
+- git add src/jungle/Compra.java
+- git commit -m "Añade clase Compra.java
+- git push origin ramaAlumno1
+- git add src/jungle/LineaDeCompra.java
+- git commit -m "Mejora código LineaDeCompra
 
 
 ### Alumno 2
