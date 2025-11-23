@@ -79,10 +79,23 @@ Sí, conseguimos quedar bien delante del jefe.
 - Alumno 3: @Jose039
 - Alumno 4: @Streif44
 
-#### Apartado 15: Crear ramas remotas y de investigación
+#### Apartado 15: Crear ramas remotas y una extra para investigar
 - git branch investigacion
 - git push origin investigacion
 - git branch -r
+
+
+####Apartado 16: Modifican los alumnos en sus ramas, cada un en su rama
+- git checkout ramaAlumno1
+- nano src/jungle/Pantalla.java
+- git add src/jungle/Pantalla.java
+- git commit -m "Añade método addMedicamento_Almacen en Pantalla.java
+
+####Apartado 17: ¿Qué ha cambiado?
+- git whatchanged -1 --pretty=format:"Hash: %h | Autor: %an | Committer: %cn | Mensaje: %s"
+
+
+
 
 ### Alumno 2
 
