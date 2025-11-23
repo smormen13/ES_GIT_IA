@@ -1,0 +1,5 @@
+commit 9be4c503f456498032a8a747de1b11ba185d107f
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Tue Nov 4 12:40:03 2025 +0100
+
+    Inicialización del repositorio con archivos Farmacia

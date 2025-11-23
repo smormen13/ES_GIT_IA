@@ -1,0 +1,54 @@
+commit 7ef2f2aaa69d1637d8aba93f29577272b4125f23
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Tue Nov 11 12:14:26 2025 +0100
+
+    Fusión cambios del README
+
+commit fdf39a9fc0af7ecffd46b14f6ec557a6f7248b10
+Merge: 01ec6ae 14645d7
+Author: rubenmmg88 <ruben@Portatil-Ruben.localdomain>
+Date:   Tue Nov 11 11:58:19 2025 +0100
+
+    Merge branch 'ramaAlumno2'
+
+commit 14645d73c99f5bf72032889a128de61d5d11b7d5
+Author: rubenmmg88 <ruben@Portatil-Ruben.localdomain>
+Date:   Tue Nov 11 11:47:54 2025 +0100
+
+    Añadiendo fichero cliente.java
+
+commit 01ec6ae1072b5539a4b6e57c3d6d3cb9fb3f9133
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Tue Nov 11 11:44:54 2025 +0100
+
+    Añadiendo fichero almacen_cli.java
+
+commit 67d3ab830cf82f9243fd3240e73b9e5e7a50c284
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Mon Nov 10 14:03:58 2025 +0100
+
+    Corrección README
+
+commit 8dd32676118a8310f1dd8e54d33bfe1ccc62a09f
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Mon Nov 10 14:01:07 2025 +0100
+
+    Actualización README
+
+commit 4010e1ea9c66158ea24f84939d5edcbac58416c7
+Author: rubenmmg88 <ruben@Portatil-Ruben.localdomain>
+Date:   Mon Nov 10 13:48:43 2025 +0100
+
+    Modificación README.md
+
+commit bfcf49b11b6a1ea9c7b3275700159a963b93f271
+Author: rubenmmg88 <ruben@Portatil-Ruben.localdomain>
+Date:   Mon Nov 10 13:47:23 2025 +0100
+
+    Creación README.md
+
+commit ec4777e9d329a1b59a1f95774a86a255cc63e348
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Mon Nov 10 13:16:25 2025 +0100
+
+    Inicialización del repositorio con archivos Farmacia
