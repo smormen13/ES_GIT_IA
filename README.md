@@ -85,15 +85,19 @@ Sí, conseguimos quedar bien delante del jefe.
 - git branch -r
 
 
-####Apartado 16: Modifican los alumnos en sus ramas, cada un en su rama
+#### Apartado 16: Modifican los alumnos en sus ramas, cada un en su rama
 - git checkout ramaAlumno1
 - nano src/jungle/Pantalla.java
 - git add src/jungle/Pantalla.java
 - git commit -m "Añade método addMedicamento_Almacen en Pantalla.java
 
-####Apartado 17: ¿Qué ha cambiado?
+#### Apartado 17: ¿Qué ha cambiado?
 - git whatchanged -1 --pretty=format:"Hash: %h | Autor: %an | Committer: %cn | Mensaje: %s"
 
+#### Apartado 18: Merge sin conflictos
+- git checkout main
+- git merge ramaAlumno1
+- git push origin main
 
 
 
