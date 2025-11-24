@@ -127,8 +127,15 @@ Sí, conseguimos quedar bien delante del jefe.
 ##### ¿Por qué el Alumno más rápido no ha tenido problemas?
 - El alumno más rápido no tuvo problemas porque, en el momento exacto de su push, la rama main remota no había cambiado respecto a su copia local.
 
+#### Historial de commits
+- git shortlog -sn
+- git cherry -v main ramaAlumno1
 
-
+##### Historial de commits por autor
+- 22  smormen13
+- 11  rubenmmg88
+- 4  Jose039
+- 2  Streif44
 
 
 ### Alumno 2
