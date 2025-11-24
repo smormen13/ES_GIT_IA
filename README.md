@@ -296,6 +296,7 @@ No hemos podido hacer el apartado con los mismos comandos ya que uno ha subido l
 ### Alumno 4
 
 #### Apartado 15: Crear ramas remotas y una extra para investigar
+- git clone https://github.com/smormen13/ES_GIT_IA.git
 - git checkout -b ramaAlumno4
 - git push origin ramaAlumno4
 
@@ -340,14 +341,10 @@ No hemos podido hacer el apartado con los mismos comandos ya que uno ha subido l
 
 #### Apartado 21: Historial de commits
 - git shortlog -sn
-- git cherry -v main ramaAlumno2
+- git cherry -v main ramaAlumno4
 
 ##### Historial de commits por autor
 - 22  smormen13
 - 11  rubenmmg88
 - 4  Jose039
 - 2  Streif44
-
-#### Apartado 21: Historial de commits
-- git shortlog -sn
-- git cherry -v main ramaAlumno4
