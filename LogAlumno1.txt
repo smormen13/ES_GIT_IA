@@ -1,3 +1,262 @@
+commit d45b59cc6740f6d3a0847d4ee1997358606d3942
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Mon Nov 24 14:52:09 2025 +0100
+
+    Entrega final: log generado
+
+commit 871c6fc9480cdce466bda2501d14bf5b8b0f0cf7
+Merge: 6b732b8 9919d96
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Mon Nov 24 14:48:54 2025 +0100
+
+    Merge branch 'ramaAlumno1'
+    Readme actualizado
+
+commit 9919d96e19c7b5a3d4d7eb1539adf18ba47649cb
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Mon Nov 24 14:46:18 2025 +0100
+
+    Añade ap. 22 al README
+
+commit 9dda3f28cfb5c03a0086cc23ae01912eea1827fb
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Mon Nov 24 14:41:57 2025 +0100
+
+    Añade ap. 21 al README
+
+commit 6b732b8dc87e912d74144dd58cb1c97f99a5e370
+Merge: 4136e66 6aa0a83
+Author: Jose039 <j9ose03@gmail.com>
+Date:   Mon Nov 24 13:17:34 2025 +0000
+
+    Solución final al conflicto lineaDeCompra.java
+
+commit 3d7d3aaa3e7b203357b97fcf77a91ea787bc01ab
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Mon Nov 24 14:13:04 2025 +0100
+
+    Añade ap. 20 al README
+
+commit 4136e6617566029d9102536338b5dca1705299ce
+Merge: 6e96452 0b7a8bb
+Author: Streif44 <diego.atalayaramirez@alum.uca.es>
+Date:   Mon Nov 24 14:09:46 2025 +0100
+
+    Merge con ramaAlumno3
+
+commit 6aa0a831e8f8ebd64ad1a87519d857c5edf55eeb
+Author: Jose039 <j9ose03@gmail.com>
+Date:   Mon Nov 24 13:06:32 2025 +0000
+
+    Añadiendo lineaDeCompra.java a ramaAlumno4
+
+commit 6e96452c90c9c6564ffbb684f3e3bb90f5d44428
+Author: Streif44 <diego.atalayaramirez@alum.uca.es>
+Date:   Sun Nov 23 22:49:46 2025 +0100
+
+    Más cambios a lineaDeCompra.java
+
+commit eccdc65e6c7026a3d2cd3d681bfb54d7272482d9
+Merge: 2492d7b bb0b44d
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Mon Nov 24 14:02:35 2025 +0100
+
+    Solucionando conflicto del archivo lineaDeCompra
+
+commit 2492d7b76491cddf76c6256b1350ff7184e5277b
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Mon Nov 24 13:49:25 2025 +0100
+
+    Correccion nombre archivo lineaDeCompra
+
+commit bb0b44d93870e7e76ffd05d4626c097eca4beb48
+Merge: 0e27e31 cb6fece
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Mon Nov 24 13:37:58 2025 +0100
+
+    Merge branch 'main' of https://github.com/smormen13/ES_GIT_IA
+    Correccion LineaDeCompra
+
+commit 0b7a8bbc75796d2c0d1815c3f00d62a3142fac1e
+Merge: 79dfad0 65fffc0
+Author: Streif44 <diego.atalayaramirez@alum.uca.es>
+Date:   Mon Nov 24 13:32:29 2025 +0100
+
+    Fusión de rama main con ramaAlumno3
+
+commit 0e27e3108629a1e2df1313f8044b320351894557
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Sun Nov 23 23:11:44 2025 +0100
+
+    Añade ap. 19 al README
+
+commit 346d2a9ff53c71aacffafbafc25fc69181873390
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Sun Nov 23 23:09:09 2025 +0100
+
+    Mejora código LineaDeCompra (Propuesta Alumno 1)
+
+commit 65fffc051d23fe83156c956ebb499081b5d2fc77
+Author: Streif44 <diego.atalayaramirez@alum.uca.es>
+Date:   Sun Nov 23 22:49:46 2025 +0100
+
+    Cambios a lineaDeCompra.java
+
+commit cb6fece375187688adbecf4867725dcd9efd63cc
+Author: rubenmmg88 <ruben@Portatil-Ruben.localdomain>
+Date:   Sun Nov 23 22:09:27 2025 +0100
+
+    Añadiendo linea de compra
+
+commit 27c3eb577ec3625a67aef815d50ab607e87ed0ea
+Author: Streif44 <diego.atalayaramirez@alum.uca.es>
+Date:   Sun Nov 23 20:53:45 2025 +0100
+
+    Creando lineaDeCompra.java
+
+commit 9c59fa525098b8fe89eb69e941f581bc701b3280
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Sun Nov 23 20:45:04 2025 +0100
+
+    Añade clase Compra.java
+
+commit 7d88afcff594535f3b7dc09ae6a5c6c5fb823da8
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Sun Nov 23 20:42:40 2025 +0100
+
+    Añade ap. 18 al README
+
+commit 79dfad0724550df22888c4626f9ea8b4c4e05976
+Merge: f2c4eeb 8e958a4
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Sun Nov 23 20:32:52 2025 +0100
+
+    Solucion conflicto Pantalla.java
+
+commit f2c4eeba46700074e877f8c6fbf5a7eb0bd0e026
+Merge: 622ac55 f2612f3
+Author: Jose039 <j9ose03@gmail.com>
+Date:   Sun Nov 23 19:11:48 2025 +0000
+
+    Merge de ramaAlumno4
+
+commit 622ac556a571bae9c8203efcc9cd783c078decc0
+Author: Jose039 <j9ose03@gmail.com>
+Date:   Sun Nov 23 19:10:26 2025 +0000
+
+    Cambios en README
+
+commit 8e958a428851f246c3fd45871976bb67a8e64747
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Sun Nov 23 19:42:32 2025 +0100
+
+    Añadido ap.17 al README
+
+commit a14f6b30178db949af548b34d65e9d0ed2234b39
+Merge: 9f59faa 6a566c9
+Author: rubenmmg88 <ruben@Portatil-Ruben.localdomain>
+Date:   Sun Nov 23 18:54:22 2025 +0100
+
+    Resolviendo conflictos
+
+commit f2612f350c30955578b80d9acaacae901b9d2b26
+Author: Jose039 <j9ose03@gmail.com>
+Date:   Sun Nov 23 16:39:21 2025 +0000
+
+    Añadiendo el menú de realizar compra en Pantalla.java
+
+commit b98067828f04200e3b8702598d336fc296ed7653
+Author: Jose039 <j9ose03@gmail.com>
+Date:   Sun Nov 23 16:24:30 2025 +0000
+
+    Creacion rama alumno 4 y adicion a README
+
+commit 6a566c9ace0aae91b91fdbad772520fe345481a1
+Author: Streif44 <diego.atalayaramirez@alum.uca.es>
+Date:   Sun Nov 23 12:22:44 2025 +0100
+
+    Añadida función a Pantalla.java
+
+commit b0df545f9f660c8b49c37a803226d8d2a199b1bd
+Author: Streif44 <diego.atalayaramirez@alum.uca.es>
+Date:   Sun Nov 23 12:18:04 2025 +0100
+
+    Creación rama alumno 3 y adición a README.md
+
+commit 9f59faa17b9e71c76536a00004df1e38e439b907
+Author: rubenmmg88 <ruben@Portatil-Ruben.localdomain>
+Date:   Sat Nov 22 19:47:49 2025 +0100
+
+    Añadiendo menú consulta cliente
+
+commit 76b806b20b047d70360220a469d4090c6e692d5e
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Sat Nov 22 17:08:12 2025 +0100
+
+    Añade metodo addMedicamento_Almacen en Pantalla.java
+
+commit d7e029771a2954e46500586bb874cf660e2bcc59
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Sat Nov 22 17:01:38 2025 +0100
+
+    Añadido ap.15 al readme
+
+commit 2ef2e129bbb856495dabdf26d5d0d2cb92a2df2c
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Tue Nov 18 12:57:44 2025 +0100
+
+    Actualizacion README
+
+commit 6ada90eb35a6e6931379c0f65e801ddbe795756b
+Merge: 449a150 b41fe78
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Tue Nov 18 12:46:09 2025 +0100
+
+    Merge branch 'main' of https://github.com/smormen13/ES_GIT_IA
+    Actualizando README
+
+commit b41fe78e462cdbb50081268cfa163aa75856bcf9
+Author: rubenmmg88 <ruben@Portatil-Ruben.localdomain>
+Date:   Tue Nov 18 12:44:39 2025 +0100
+
+    Añadir log de la rama main
+
+commit 449a150fc6854d38019fdf6836c6d2e57f2fcbe2
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Tue Nov 18 12:39:57 2025 +0100
+
+    Praparando README para entrega parcial
+
+commit a09c3742d713895c94a8712eaae26fbee5c16756
+Author: rubenmmg88 <ruben@Portatil-Ruben.localdomain>
+Date:   Tue Nov 11 13:06:41 2025 +0100
+
+    Guardar cambios
+
+commit 6d14cb433ca4baa83af5060dd46aa8f365e968b1
+Author: rubenmmg88 <ruben@Portatil-Ruben.localdomain>
+Date:   Tue Nov 11 12:46:22 2025 +0100
+
+    Añadir log de la rama main
+
+commit afe15547aba08934cb1c9564eea23390426a2338
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Tue Nov 11 12:44:41 2025 +0100
+
+    Actualizando README
+
+commit 41cebef03b11008e42f901d6546e6b9d1a262317
+Author: rubenmmg88 <ruben@Portatil-Ruben.localdomain>
+Date:   Tue Nov 11 12:44:32 2025 +0100
+
+    Mod. README
+
+commit 714f8355a6f69105271a9b2ff399fc057d467237
+Author: smormen13 <salvamoreno02@gmail.com>
+Date:   Tue Nov 11 12:38:50 2025 +0100
+
+    Añadiendo LogAlumno1.txt
+
 commit 7ef2f2aaa69d1637d8aba93f29577272b4125f23
 Author: smormen13 <salvamoreno02@gmail.com>
 Date:   Tue Nov 11 12:14:26 2025 +0100
