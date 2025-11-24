@@ -181,3 +181,71 @@ He quedado bien con el jefe, menos mal...
 No hemos podido hacer el apartado con los mismos comandos ya que uno ha subido los cambios antes que otro y por tanto el último en subir los cambios ha tenido que actualizarlo con los cambios subidos por el otro.
 
 #### Apartado 12: Credenciales
+- git config --global credential.helper 'cache --timeout=86400'
+- git checkout ramaAlumno2
+- git merge main
+- git log main > LogAlumno2.txt
+- git add LogAlumno2.txt
+- git commit -m "Añadiendo LogAlumno2.txt"
+- git checkout main
+- git pull origin main
+- git merge ramaAlumno2
+- git push origin main
+
+##### ¿Funcionó la configuración de credenciales?
+- Sí, una vez configurado el 'credential.helper' y hacer el primer push donde pidió la clave por última vez, en el segundo push no pidió usuario ni token.
+
+#### Apartado 14: Unión de nuevos miembros
+##### Se incorporan al equipo dos nuevos desarrolladores:
+- Alumno 3: @Jose039
+- Alumno 4: @Streif44
+
+#### Apartado 15: Crear ramas remotas y una extra para investigar
+- git branch investigacion
+- git push origin investigacion
+- git branch -r
+
+#### Apartado 16: Modifican los alumnos en sus ramas, cada un en su rama
+- git checkout ramaAlumno2
+- nano src/jungle/Pantalla.java
+- git add src/jungle/Pantalla.java
+- git commit -m "Añadiendo menú de consultas de clientes en Pantalla.java"
+
+#### Apartado 17: ¿Qué ha cambiado?
+- git whatchanged -1 --pretty=format:"Hash: %h | Autor: %an | Committer: %cn | Mensaje: %s"
+
+#### Apartado 18: Merge sin conflictos
+- git checkout main
+- git merge ramaAlumno2
+- git push origin main
+
+#### Apartado 19.4.: Modifican los alumnos en sus ramas, en el mismo archivo
+- git checkout ramaAlumno2
+- nano src/jungle/lineaDeCompra.java
+- git add src/jungle/lineaDeCompra.java
+- git commit -m "Modificando archivo lineaDeCompra.java"
+- git push origin ramaAlumno2
+
+#### Apartado 20: Merge con conflictos
+- git checkout main
+- git pull origin main
+- git merge ramaAlumno2
+- git push origin main (Se hizo correctamente ya que fui el primero en hacer el push)
+
+##### Ganador de la carrera: Rubén (Yo)
+
+##### ¿Por qué ha sucedido esto?
+- El conflicto sucede porque varios miembros del equipo modificaron el mismo archivo (lineaDeCompra.java) en sus ramas. Git solo acepta el primer push al servidor remoto (main). Rechaza los push posteriores para obligarte a traer los cambios del compañero a tu copia local (git pull), resolver los conflictos en ese archivo y luego subir el resultado, evitando así sobrescribir el trabajo de los demás sin revisión.
+
+##### ¿Por qué el Alumno más rápido no ha tenido problemas?
+- El alumno más rápido no tuvo problemas porque, en el momento exacto de su push, la rama remota main estaba exactamente en el mismo estado que su copia local más reciente, es decir, no había recibido ningún commit nuevo de nadie más. Esto permitió a Git aceptar sus cambios directamente sin ningún tipo de conflicto.
+
+#### Apartado 21: Historial de commits
+- git shortlog -sn
+- git cherry -v main ramaAlumno2
+
+##### Historial de commits por autor
+- 22  smormen13
+- 11  rubenmmg88
+- 4  Jose039
+- 2  Streif44
