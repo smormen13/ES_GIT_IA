@@ -108,6 +108,38 @@ Sí, conseguimos quedar bien delante del jefe.
 - git add src/jungle/LineaDeCompra.java
 - git commit -m "Mejora código LineaDeCompra
 
+#### Apartado 20: Merge con conflictos
+- git checkout main
+- git pull origin main
+- git merge ramaAlumno1
+- git push origin main (Resultado: Fallo (rejected - non-fast-forward) porque otro alumno subió cambios antes.)
+- git pull origin main
+- code .
+- git add src/jungle/lineaDeCompra.java
+- git commit -m "Solucion de conflicto en lineaDeCompra"
+- git push origin main
+
+##### Ganador de la carrera: Rubén
+
+##### ¿Por qué ha sucedido esto?
+- El conflicto ha ocurrido porque todos los integrantes del equipo modificamos el mismo archivo (lineaDeCompra.java) en nuestras ramas y tratamos de subirlo a la rama remota main al mismo tiempo. Git rechaza los push posteriores al primero para evitar sobrescribir el trabajo de los demás sin revisión previa.
+
+##### ¿Por qué el Alumno más rápido no ha tenido problemas?
+- El alumno más rápido no tuvo problemas porque, en el momento exacto de su push, la rama main remota no había cambiado respecto a su copia local.
+
+#### Apartado 21: Historial de commits
+- git shortlog -sn
+- git cherry -v main ramaAlumno1
+
+##### Historial de commits por autor
+- 22  smormen13
+- 11  rubenmmg88
+- 4  Jose039
+- 2  Streif44
+
+#### Apartado 22: Eliminar rama remota secundaria
+- git push origin --delete investigacion
+
 
 ### Alumno 2
 
