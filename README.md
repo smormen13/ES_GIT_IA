@@ -249,3 +249,45 @@ No hemos podido hacer el apartado con los mismos comandos ya que uno ha subido l
 - 11  rubenmmg88
 - 4  Jose039
 - 2  Streif44
+
+
+### Alumno 3
+
+#### Apartado 15: Crear ramas remotas y una extra para investigar
+- git branch ramaAlumno3
+- git push origin ramaAlumno3
+
+#### Apartado 16: Modifican los alumnos en sus ramas, cada un en su rama
+- git checkout ramaAlumno3
+- emacs src/jungle/Pantalla.java
+- git add src/jungle/Pantalla.java
+- git commit -m "Añadida función a Pantalla.java"
+
+#### Apartado 17: ¿Qué ha cambiado?
+- git whatchanged -1 --pretty=format:"Hash: %h | Autor: %an | Autor del commit: %cn | Mensaje: %s"
+
+#### Apartado 18: Merge sin conflictos
+- git checkout main
+- git merge ramaAlumno3
+- git push origin main
+
+#### Apartado 19.4.: Modifican los alumnos en sus ramas, en el mismo archivo
+- git checkout ramaAlumno3
+- emacs src/jungle/lineaDeCompra.java
+- git add src/jungle/lineaDeCompra.java
+- git commit -m "Creando lineaDeCompra.java"
+- git push origin ramaAlumno3
+- emacs src/jungle/lineaDeCompra.java
+- git add src/jungle/lineaDeCompra.java
+- git commit -m "Cambios a lineaDeCompra.java"
+- git push origin ramaAlumno3
+
+#### Apartado 20: Merge con conflictos
+- git checkout main
+- git pull origin main
+- git merge ramaAlumno3
+- git push origin main (No se hizo sin problemas, tuvo que editarse el archivo para seleccionar los cambios a mantener)
+
+#### Apartado 21: Historial de commits
+- git shortlog -sn
+- git cherry -v main ramaAlumno3
