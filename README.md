@@ -291,3 +291,63 @@ No hemos podido hacer el apartado con los mismos comandos ya que uno ha subido l
 #### Apartado 21: Historial de commits
 - git shortlog -sn
 - git cherry -v main ramaAlumno3
+
+
+### Alumno 4
+
+#### Apartado 15: Crear ramas remotas y una extra para investigar
+- git checkout -b ramaAlumno4
+- git push origin ramaAlumno4
+
+#### Apartado 16: Modifican los alumnos en sus ramas, cada un en su rama
+- emacs src/jungle/Pantalla.java
+- git add src/jungle/Pantalla.java
+- git commit -m "Añadiendo el menú de realizar compra en Pantalla.java"
+
+#### Apartado 17: ¿Qué ha cambiado?
+- git whatchanged -1 --pretty=format:"Hash: %h | Autor: %an | Autor del commit: %cn | Mensaje: %s"
+
+#### Apartado 18: Merge sin conflictos
+- git checkout main
+- git pull
+- git merge ramaAlumno4
+- git push
+
+#### Apartado 19.6.: Modifican los alumnos en sus ramas, en el mismo archivo
+- git checkout ramaAlumno4
+- emacs lineaDeCompra.java
+- mv lineaDeCompra.java src/jungle/
+- git add src/jungle/lineaDeCompra.java
+- git commit -m "Añadiendo lineaDeCompra.java a ramaAlumno4"
+
+#### Apartado 20: Merge con conflictos
+- git checkout main
+- git pull
+- git merge ramaAlumno4
+- git push (Se detectó un conflicto)
+- git checkout --theirs src/jungle/lineaDeCompra.java (Finalmente decidimos quedarnos con la versión del alumno 4, la mía)
+- git add src/jungle/lineaDeCompra.java
+- git commit -m "Solución final al conflicto lineaDeCompra.java"
+- git push
+
+##### Ganador de la carrera: Rubén
+
+##### ¿Por qué ha sucedido esto?
+- El conflicto sucede porque varios miembros del equipo modificaron el mismo archivo (lineaDeCompra.java) en sus ramas. Git solo acepta el primer push al servidor remoto (main). Rechaza los push posteriores para obligarte a traer los cambios del compañero a tu copia local (git pull), resolver los conflictos en ese archivo y luego subir el resultado, evitando así sobrescribir el trabajo de los demás sin revisión.
+
+##### ¿Por qué el Alumno más rápido no ha tenido problemas?
+- El alumno más rápido no tuvo problemas porque, en el momento exacto de su push, la rama remota main estaba exactamente en el mismo estado que su copia local más reciente, es decir, no había recibido ningún commit nuevo de nadie más. Esto permitió a Git aceptar sus cambios directamente sin ningún tipo de conflicto.
+
+#### Apartado 21: Historial de commits
+- git shortlog -sn
+- git cherry -v main ramaAlumno2
+
+##### Historial de commits por autor
+- 22  smormen13
+- 11  rubenmmg88
+- 4  Jose039
+- 2  Streif44
+
+#### Apartado 21: Historial de commits
+- git shortlog -sn
+- git cherry -v main ramaAlumno4
